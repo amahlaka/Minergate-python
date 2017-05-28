@@ -11,6 +11,15 @@ import json
 import requests
 host = "https://api.minergate.com"
 
+def help():
+    import pkg_resources
+
+    resource_package = __name__  #
+    resource_path = '/'.join(('info', 'help.txt'))
+
+    helpfile = pkg_resources.resource_string(resource_package, resource_path)
+    print(helpfile)
+    return()
 
 def getProfitRating():
     """Return the list of all currencies sorted by profitability."""

@@ -1,0 +1,27 @@
+No Authorization required:
+
+getProfitRating()
+  Return the list of all currencies sorted by profitability.
+
+getTopHashrate()
+  Return top 10 miners, based on hashrate.
+
+getBlockchainInfo(currency)
+  Return blockchain info for "currency"
+
+getLoginToken(email, password, 2fa-code)
+  Return Login token
+
+Needs login token:
+
+getBalance(token)
+  Return your balances
+
+getWorkers(token)
+  Returns your worker stats
+
+getMiningStats(token)
+  Returns your mining stats
+
+getNickname(token)
+  Returns your nickname
