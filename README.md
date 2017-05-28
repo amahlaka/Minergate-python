@@ -19,6 +19,7 @@ to get info about your Bitcoin miners
 ## NOTE:
 Currently minergate api has some problems with ProfitRating and login
 Instead of returning the login token as it should, it returns `{"code":"InternalError","message":"Cannot read property 'send' of undefined"}`This is a error on server side and we are waiting for a fix, meanwhile, you can acquire the login token using a browser
+The token is stored in your cookies, under the name: token
 
 ##TODO:
 - Add manual token retrieval process
